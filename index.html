@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MediCare Hub demo healthcare website for an AWS high-availability architecture project." />
+  <title>MediCare Hub | Better Care, Closer to You</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="MediCare Hub home">
+        <span class="brand-mark">+</span>
+        <span>MediCare <strong>Hub</strong></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-button" href="#contact">Book Appointment</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Trusted care for every stage of life</p>
+          <h1>Modern healthcare with a <span>human touch.</span></h1>
+          <p class="hero-text">
+            MediCare Hub connects patients with caring medical professionals,
+            convenient appointments, and dependable healthcare services in one place.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Book an Appointment</a>
+            <a class="button secondary" href="#services">Explore Services</a>
+          </div>
+
+          <div class="hero-stats" aria-label="MediCare Hub statistics">
+            <div><strong>20+</strong><span>Specialists</span></div>
+            <div><strong>12k+</strong><span>Patients served</span></div>
+            <div><strong>4.9/5</strong><span>Patient rating</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="images/hero-medical.svg" alt="Healthcare professional with medical dashboard" />
+          <div class="floating-card">
+            <span class="pulse-dot"></span>
+            <div>
+              <strong>Care available today</strong>
+              <small>Appointments from 9:00 AM</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><span>✓</span> Same-day appointments</div>
+        <div><span>✓</span> Experienced clinicians</div>
+        <div><span>✓</span> Patient-first care</div>
+        <div><span>✓</span> Modern facilities</div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Our services</p>
+            <h2>Healthcare made simple</h2>
+          </div>
+          <p>
+            From routine checkups to specialist consultations, our team is here
+            to help you stay healthy and informed.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="icon">♥</div>
+            <h3>Primary Care</h3>
+            <p>Routine visits, preventive care, screenings, and everyday health support.</p>
+            <a href="#contact">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">✚</div>
+            <h3>Urgent Visits</h3>
+            <p>Prompt care for non-emergency illnesses, minor injuries, and sudden concerns.</p>
+            <a href="#contact">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">◉</div>
+            <h3>Diagnostics</h3>
+            <p>Coordinated testing and diagnostics to help clinicians make informed decisions.</p>
+            <a href="#contact">Learn more →</a>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">⌁</div>
+            <h3>Specialist Care</h3>
+            <p>Access to experienced specialists across a range of medical disciplines.</p>
+            <a href="#contact">Learn more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/clinic-care.svg" alt="Modern clinic consultation illustration" />
+        </div>
+
+        <div class="about-copy">
+          <p class="eyebrow">Why MediCare Hub</p>
+          <h2>Care designed around people, not paperwork.</h2>
+          <p>
+            We believe great healthcare should feel clear, welcoming, and dependable.
+            Our clinical team combines modern medical practices with attentive,
+            personalized care.
+          </p>
+
+          <div class="feature-list">
+            <div>
+              <span>01</span>
+              <div><strong>Convenient scheduling</strong><p>Easy appointment options that fit busy lives.</p></div>
+            </div>
+            <div>
+              <span>02</span>
+              <div><strong>Coordinated care</strong><p>Connected services for a smoother patient experience.</p></div>
+            </div>
+            <div>
+              <span>03</span>
+              <div><strong>Dependable access</strong><p>Technology designed to keep essential services available.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="doctors">
+      <div class="container">
+        <div class="section-heading centered">
+          <div>
+            <p class="eyebrow">Meet the team</p>
+            <h2>Doctors who listen</h2>
+          </div>
+          <p>Friendly, experienced professionals focused on practical, compassionate care.</p>
+        </div>
+
+        <div class="doctor-grid">
+          <article class="doctor-card">
+            <img src="images/doctor-a.svg" alt="Illustration of Dr. Maya Chen" />
+            <div class="doctor-info">
+              <h3>Dr. Maya Chen</h3>
+              <p>Family Medicine</p>
+              <span>10+ years experience</span>
+            </div>
+          </article>
+
+          <article class="doctor-card">
+            <img src="images/doctor-b.svg" alt="Illustration of Dr. Daniel Brooks" />
+            <div class="doctor-info">
+              <h3>Dr. Daniel Brooks</h3>
+              <p>Internal Medicine</p>
+              <span>12+ years experience</span>
+            </div>
+          </article>
+
+          <article class="doctor-card">
+            <img src="images/doctor-c.svg" alt="Illustration of Dr. Sofia Patel" />
+            <div class="doctor-info">
+              <h3>Dr. Sofia Patel</h3>
+              <p>Cardiology</p>
+              <span>9+ years experience</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow light">Need an appointment?</p>
+          <h2>Better care starts with one conversation.</h2>
+          <p>Contact MediCare Hub to schedule a visit with our care team.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="button light-button" href="tel:+15550102400">Call (555) 010-2400</a>
+          <a class="button outline-light" href="mailto:care@medicarehub.example">Email Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark">+</span>
+          <span>MediCare <strong>Hub</strong></span>
+        </a>
+        <p>Demo website for an AWS architecture portfolio project.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="container disclaimer">
+      <p>Demo only — no real patient data, medical records, or protected health information (PHI) is used.</p>
+    </div>
+  </footer>
+</body>
+</html>
